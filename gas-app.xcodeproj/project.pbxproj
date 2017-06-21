@@ -14,6 +14,8 @@
 		B957F0F21EF9F67100C89117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B957F0F01EF9F67100C89117 /* LaunchScreen.storyboard */; };
 		B957F0FD1EF9F67100C89117 /* gas_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957F0FC1EF9F67100C89117 /* gas_appTests.swift */; };
 		B957F1081EF9F67100C89117 /* gas_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957F1071EF9F67100C89117 /* gas_appUITests.swift */; };
+		B957F1171EF9F98B00C89117 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B957F1161EF9F98B00C89117 /* MapKit.framework */; };
+		B957F1191EF9FDF500C89117 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957F1181EF9FDF500C89117 /* Station.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B957F1031EF9F67100C89117 /* gas-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gas-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B957F1071EF9F67100C89117 /* gas_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gas_appUITests.swift; sourceTree = "<group>"; };
 		B957F1091EF9F67100C89117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B957F1161EF9F98B00C89117 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B957F1181EF9FDF500C89117 /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B957F1171EF9F98B00C89117 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				B957F0FB1EF9F67100C89117 /* gas-appTests */,
 				B957F1061EF9F67100C89117 /* gas-appUITests */,
 				B957F0E51EF9F67100C89117 /* Products */,
+				B957F1151EF9F98B00C89117 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +105,7 @@
 			children = (
 				B957F0E71EF9F67100C89117 /* AppDelegate.swift */,
 				B957F0E91EF9F67100C89117 /* ViewController.swift */,
+				B957F1181EF9FDF500C89117 /* Station.swift */,
 				B957F0EB1EF9F67100C89117 /* Main.storyboard */,
 				B957F0EE1EF9F67100C89117 /* Assets.xcassets */,
 				B957F0F01EF9F67100C89117 /* LaunchScreen.storyboard */,
@@ -123,6 +130,14 @@
 				B957F1091EF9F67100C89117 /* Info.plist */,
 			);
 			path = "gas-appUITests";
+			sourceTree = "<group>";
+		};
+		B957F1151EF9F98B00C89117 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B957F1161EF9F98B00C89117 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B957F0EA1EF9F67100C89117 /* ViewController.swift in Sources */,
+				B957F1191EF9FDF500C89117 /* Station.swift in Sources */,
 				B957F0E81EF9F67100C89117 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
